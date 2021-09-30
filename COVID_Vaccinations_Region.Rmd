@@ -3,11 +3,10 @@ title: The Relative Importance of Region and Vaccination in Predicting COVID-19 
   in U.S. Counties
 author: "Lev El-Askari"
 date: "9/5/2021"
-output:
-  word_document: default
-  html_document: default
+output:rmarkdown::github_document
 ---
 
+ 
 ```{r include=FALSE}
 setwd("~/COVID Side Project")
 ```
