@@ -4,7 +4,7 @@ Cases in U.S. Counties
 Lev El-Askari
 9/5/2021
 
-### The Relative Importance of Region and Vaccination in Predicting COVID-19 Cases in U.S. Counties?
+### The Relative Importance of Region and Vaccination in Predicting COVID-19 Cases in U.S. Counties
 
 At the beginning of Summer 2021, the COVID-19 pandemic looked to be
 behind us. Cases, hospitalizations, and deaths were at the lowest levels
