@@ -252,8 +252,6 @@ vax_case %>%
   theme(plot.title = element_text(hjust = 0.5))
 ```
 
-    ## `geom_smooth()` using formula 'y ~ x'
-
 ![](COVID_Vaccinations_Region_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
 
 ##### Southeast
@@ -268,8 +266,6 @@ vax_case %>%
   theme_classic()+
   theme(plot.title = element_text(hjust = 0.5))
 ```
-
-    ## `geom_smooth()` using formula 'y ~ x'
 
 ![](COVID_Vaccinations_Region_files/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
 
@@ -286,8 +282,6 @@ vax_case %>%
   theme(plot.title = element_text(hjust = 0.5))
 ```
 
-    ## `geom_smooth()` using formula 'y ~ x'
-
 ![](COVID_Vaccinations_Region_files/figure-gfm/unnamed-chunk-13-1.png)<!-- -->
 
 ##### Southwest
@@ -302,8 +296,6 @@ vax_case %>%
   theme_classic()+
   theme(plot.title = element_text(hjust = 0.5))
 ```
-
-    ## `geom_smooth()` using formula 'y ~ x'
 
 ![](COVID_Vaccinations_Region_files/figure-gfm/unnamed-chunk-14-1.png)<!-- -->
 
@@ -320,8 +312,6 @@ vax_case %>%
   theme(plot.title = element_text(hjust = 0.5))
 ```
 
-    ## `geom_smooth()` using formula 'y ~ x'
-
 ![](COVID_Vaccinations_Region_files/figure-gfm/unnamed-chunk-15-1.png)<!-- -->
 
 ## South
@@ -336,8 +326,6 @@ vax_case %>%
   theme_classic()+
   theme(plot.title = element_text(hjust = 0.5))
 ```
-
-    ## `geom_smooth()` using formula 'y ~ x'
 
 ![](COVID_Vaccinations_Region_files/figure-gfm/unnamed-chunk-16-1.png)<!-- -->
 
@@ -354,8 +342,6 @@ vax_case %>%
   theme(plot.title = element_text(hjust = 0.5))
 ```
 
-    ## `geom_smooth()` using formula 'y ~ x'
-
 ![](COVID_Vaccinations_Region_files/figure-gfm/unnamed-chunk-17-1.png)<!-- -->
 
 ##### Northwest
@@ -371,8 +357,6 @@ vax_case %>%
   theme(plot.title = element_text(hjust = 0.5))
 ```
 
-    ## `geom_smooth()` using formula 'y ~ x'
-
 ![](COVID_Vaccinations_Region_files/figure-gfm/unnamed-chunk-18-1.png)<!-- -->
 
 ##### Northern Rockies and Plains
@@ -387,8 +371,6 @@ vax_case %>%
   theme_classic()+
   theme(plot.title = element_text(hjust = 0.5))
 ```
-
-    ## `geom_smooth()` using formula 'y ~ x'
 
 ![](COVID_Vaccinations_Region_files/figure-gfm/unnamed-chunk-19-1.png)<!-- -->
 
@@ -793,7 +775,7 @@ changes for each model when we add the other variable. This change in R2
 represents the additional variance in case rates explained by adding the
 other variable.
 
-### Change in R^2
+# Change in R^2
 
 ``` r
 print(paste("Change in R^2 of Region to Region + Vaccination:", summary(case3sqrt)$r.squared - summary(case1sqrt)$r.squared))
@@ -812,7 +794,7 @@ R^2 of 0.0035 (0.35% additional explained variance). When adding region
 to a vaccination-only model, there was a change in R^2 of 0.3280 (32.80%
 additional explained variance).
 
-### Takeaways
+# Takeaways
 
 This analysis presents two clear findings:
 
